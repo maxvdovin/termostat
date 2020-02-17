@@ -73,10 +73,10 @@ void updateVaillant() {
             j2 = controller - vaillant[i - 1];
             // выбираем лучшее значение
             if (j2 > j1) {
-                setVaillantRelay(i); // устанваливаем реле
+                setVaillantRelay(i); // устанавливаем реле
                 temp_vessel = vaillant[i];
             } else {
-                setVaillantRelay(i - 1); // устанваливаем реле
+                setVaillantRelay(i - 1); // устанавливаем реле
                 temp_vessel = vaillant[i-1];
             }
             break;
